@@ -132,7 +132,7 @@ export default function Home() {
       </div>
     );
   return (
-    <div className="flex flex-col gap-4 bg-gray-100 min-h-screen ">
+    <div className="flex flex-col gap-4 bg-blue-100 min-h-screen ">
       <Navbar location={data?.city.name} />
       <main className="px-3 max-w-7xl mx-auto flex flex-col gap-9  w-full  pb-10 pt-4 ">
         {/* today data  */}
@@ -212,7 +212,7 @@ export default function Home() {
                     )}
                   />
                 </Container>
-                <Container className="bg-purple-400/80  px-6 gap-4 justify-between overflow-x-auto">
+                <Container className="bg-blue-200/80  px-6 gap-4 justify-between overflow-x-auto shadow-2xl">
                   <WeatherDetails
                     visability={metersToKilometers(
                       firstData?.visibility ?? 10000
